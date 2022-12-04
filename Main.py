@@ -39,10 +39,14 @@ def main():
             leetcodeURLInput = args[i + 1]
         if args[i] == "-x":
             xlSheetFilepathInput = args[i + 1]
+            relativeXlPath = False
         if args[i] == "-s":
             solutionInput = args[i + 1]
         if args[i] == "-n":
             notesInput = args[i + 1]
+        if args[i] == "-r":
+            xlSheetFilepath = args[i + 1]
+            relativeXlPath = True
     
     # validate leetcode URL with regex to avoid errors with request, will ask for new addres again later if request fails
     
@@ -79,13 +83,14 @@ def main():
     
     browser = webdriver.Firefox(options = options)
     browser.get(leetcodeURL)
-    WebDriverWait(browser, 5).until(
+    WebDriverWait(browser, 7).until(
         ec.presence_of_element_located((By.CLASS_NAME, 'css-isal7m')))
-    WebDriverWait(browser, 5)
-    # expand the related topics tab
+    WebDriverWait(browser, 7)
+    # expand the related topics tab'
     
-    expandTopicsElement = browser.find_element(By.CLASS_NAME, 'css-isal7m')
-    expandTopicsElement.click()
+    topicsElementClass = browser.find_elements(By.CLASS_NAME, 'css-isal7m')
+    expandTopicsElement = topicsElementClass[1] # topics element is second on page in class
+    expandTopicsElement.click() # click it to expand
     
     # save HTML and close browser
     
@@ -114,11 +119,11 @@ def main():
     
     # problem name: class="css-v3d350"
     # difficulty: class="css-14oi08n"
-    # topics: class="css-1hky5w4"
+    # topics: class="css-vrmejz"
     
     problemNameElement = HTMLBeautifulSoup.find(class_ = "css-v3d350")
     difficultyElement = HTMLBeautifulSoup.find(class_ = "css-14oi08n")
-    relatedTopicsElement = HTMLBeautifulSoup.find(class_ = "css-1hky5w4")
+    relatedTopicsElement = HTMLBeautifulSoup.find(class_ = "css-vrmejz") # after expansion
 
     problemTitle = problemNameElement.text
     difficulty = difficultyElement.text
@@ -131,11 +136,18 @@ def main():
         if problemTitle[i] == '.':
                 problemName = problemTitle[i + 2:]
     
-    problemTopics = []
+    relatedTopicsChildren = relatedTopicsElement.findChildren()
     
-    #relatedTopicsElement
+    relatedTopics = []
+    
+    num = 1
     
     print(f'{problemNumber} {problemName} {difficulty}')
+    for index, topic in enumerate(relatedTopicsChildren):
+        if index % 2 == 0:
+            relatedTopics.append(topic.text)
+            print(f'topic {num}. {topic.text}')
+            num += 1
         
 # HELPER METHODS
 

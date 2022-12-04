@@ -748,3 +748,543 @@ JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bun
 JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
 1670118743322	Marionette	INFO	Stopped listening on port 63906
+1670141342646	Marionette	INFO	Stopped listening on port 56339
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670141349771	Marionette	INFO	Stopped listening on port 58180
+1670196322165	geckodriver	INFO	Listening on 127.0.0.1:62877
+1670196322547	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "62878" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofile8hFndJ"
+*** You are running in headless mode.
+1670196323051	Marionette	INFO	Marionette enabled
+1670196323068	Marionette	INFO	Listening on port 62884
+Read port: 62884
+2022-12-04 18:25:23.089 plugin-container[88121:2669739] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:25:23.089 plugin-container[88121:2669739] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:25:23.188 plugin-container[88121:2669739] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:25:23.188 plugin-container[88121:2669739] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:25:23.189 plugin-container[88121:2669741] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:25:23.189 plugin-container[88121:2669741] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:62878
+1670196323506	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofile8hFndJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62878/devtools/browser/9423b799-3f15-4225-b230-44591ee863bb
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670196329727	Marionette	INFO	Stopped listening on port 62884
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1670196375183	geckodriver	INFO	Listening on 127.0.0.1:63001
+1670196375704	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "63002" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofilenZy9jr"
+*** You are running in headless mode.
+2022-12-04 18:26:16.129 plugin-container[88167:2670607] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:26:16.130 plugin-container[88167:2670607] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670196376134	Marionette	INFO	Marionette enabled
+2022-12-04 18:26:16.135 plugin-container[88167:2670607] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:26:16.135 plugin-container[88167:2670607] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:26:16.136 plugin-container[88167:2670605] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:26:16.136 plugin-container[88167:2670605] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670196376149	Marionette	INFO	Listening on port 63007
+Read port: 63007
+WebDriver BiDi listening on ws://127.0.0.1:63002
+1670196376452	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofilenZy9jr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63002/devtools/browser/e21a0f21-2f52-4494-b382-8546935500ed
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670196384403	Marionette	INFO	Stopped listening on port 63007
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1670196545262	geckodriver	INFO	Listening on 127.0.0.1:63149
+1670196545775	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "63150" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofilemVCUaa"
+*** You are running in headless mode.
+2022-12-04 18:29:06.192 plugin-container[88292:2672859] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:29:06.192 plugin-container[88292:2672859] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:29:06.198 plugin-container[88292:2672859] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:29:06.198 plugin-container[88292:2672859] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:29:06.198 plugin-container[88292:2672884] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:29:06.198 plugin-container[88292:2672884] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670196546205	Marionette	INFO	Marionette enabled
+1670196546221	Marionette	INFO	Listening on port 63155
+Read port: 63155
+WebDriver BiDi listening on ws://127.0.0.1:63150
+1670196546501	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofilemVCUaa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63150/devtools/browser/662fc9e6-9072-4524-9206-6f03f1bc3baf
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670196569720	geckodriver	INFO	Listening on 127.0.0.1:63235
+1670196570279	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "63236" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofilehlpSPK"
+*** You are running in headless mode.
+2022-12-04 18:29:30.725 plugin-container[88317:2673441] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:29:30.726 plugin-container[88317:2673441] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670196570726	Marionette	INFO	Marionette enabled
+2022-12-04 18:29:30.730 plugin-container[88317:2673441] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:29:30.730 plugin-container[88317:2673441] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:29:30.730 plugin-container[88317:2673466] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:29:30.730 plugin-container[88317:2673466] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670196570740	Marionette	INFO	Listening on port 63241
+Read port: 63241
+WebDriver BiDi listening on ws://127.0.0.1:63236
+1670196571021	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofilehlpSPK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63236/devtools/browser/17b0bcf1-04b3-46db-8891-5eb895c15214
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670196576464	Marionette	INFO	Stopped listening on port 63241
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1670196625038	geckodriver	INFO	Listening on 127.0.0.1:63361
+1670196625499	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "63362" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofilepNEm6w"
+*** You are running in headless mode.
+2022-12-04 18:30:25.957 plugin-container[88367:2674331] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:30:25.957 plugin-container[88367:2674331] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670196625968	Marionette	INFO	Marionette enabled
+2022-12-04 18:30:25.981 plugin-container[88367:2674331] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:30:25.981 plugin-container[88367:2674331] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:30:25.982 plugin-container[88367:2674338] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:30:25.982 plugin-container[88367:2674338] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670196625982	Marionette	INFO	Listening on port 63367
+Read port: 63367
+WebDriver BiDi listening on ws://127.0.0.1:63362
+1670196626270	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofilepNEm6w/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63362/devtools/browser/dbc7a6c7-c10b-43ae-9f7b-c3a7a038b5f4
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670196632814	Marionette	INFO	Stopped listening on port 63367
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1670196888246	geckodriver	INFO	Listening on 127.0.0.1:63586
+1670196888764	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "63587" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofile8eqXd6"
+*** You are running in headless mode.
+2022-12-04 18:34:49.215 plugin-container[88481:2677256] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:34:49.215 plugin-container[88481:2677256] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:34:49.227 plugin-container[88481:2677256] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:34:49.227 plugin-container[88481:2677256] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670196889227	Marionette	INFO	Marionette enabled
+2022-12-04 18:34:49.228 plugin-container[88481:2677261] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:34:49.228 plugin-container[88481:2677261] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670196889241	Marionette	INFO	Listening on port 63592
+Read port: 63592
+WebDriver BiDi listening on ws://127.0.0.1:63587
+1670196889534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofile8eqXd6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63587/devtools/browser/a296b60b-cd81-4df8-a7ce-974946b75ac8
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670196895309	Marionette	INFO	Stopped listening on port 63592
+1670196998542	geckodriver	INFO	Listening on 127.0.0.1:63744
+1670196999038	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "63745" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileoSm8yX"
+*** You are running in headless mode.
+2022-12-04 18:36:39.453 plugin-container[88539:2678844] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:36:39.454 plugin-container[88539:2678844] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:36:39.457 plugin-container[88539:2678844] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:36:39.457 plugin-container[88539:2678844] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:36:39.457 plugin-container[88539:2678846] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:36:39.457 plugin-container[88539:2678846] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670196999475	Marionette	INFO	Marionette enabled
+1670196999494	Marionette	INFO	Listening on port 63750
+Read port: 63750
+WebDriver BiDi listening on ws://127.0.0.1:63745
+1670196999769	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileoSm8yX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63745/devtools/browser/6aae530a-bc75-4d95-be19-b641e75880f7
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670197005278	Marionette	INFO	Stopped listening on port 63750
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1670197171936	geckodriver	INFO	Listening on 127.0.0.1:63894
+1670197172455	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "63895" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofilenychau"
+*** You are running in headless mode.
+2022-12-04 18:39:32.864 plugin-container[88642:2680858] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:39:32.864 plugin-container[88642:2680858] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:39:32.869 plugin-container[88642:2680858] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:39:32.869 plugin-container[88642:2680858] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:39:32.869 plugin-container[88642:2680861] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:39:32.869 plugin-container[88642:2680861] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670197172873	Marionette	INFO	Marionette enabled
+1670197172937	Marionette	INFO	Listening on port 63900
+Read port: 63900
+WebDriver BiDi listening on ws://127.0.0.1:63895
+1670197173162	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofilenychau/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63895/devtools/browser/170e3ff2-7c85-4fd8-87b0-97fddaa5ab4c
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670197178335	Marionette	INFO	Stopped listening on port 63900
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1670197279657	geckodriver	INFO	Listening on 127.0.0.1:64031
+1670197280205	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "64032" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileJ1ZHsb"
+*** You are running in headless mode.
+2022-12-04 18:41:20.622 plugin-container[88721:2682136] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:41:20.623 plugin-container[88721:2682136] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:41:20.626 plugin-container[88721:2682136] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:41:20.626 plugin-container[88721:2682136] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:41:20.626 plugin-container[88721:2682142] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:41:20.626 plugin-container[88721:2682142] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670197280637	Marionette	INFO	Marionette enabled
+1670197280701	Marionette	INFO	Listening on port 64037
+Read port: 64037
+WebDriver BiDi listening on ws://127.0.0.1:64032
+1670197280922	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileJ1ZHsb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64032/devtools/browser/77cc9bf7-1d94-4f6b-af1d-002b9458ed04
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670197298297	geckodriver	INFO	Listening on 127.0.0.1:64106
+1670197298807	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "64107" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileIJVUEE"
+*** You are running in headless mode.
+2022-12-04 18:41:39.207 plugin-container[88751:2682699] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:41:39.207 plugin-container[88751:2682699] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:41:39.210 plugin-container[88751:2682699] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:41:39.210 plugin-container[88751:2682699] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:41:39.210 plugin-container[88751:2682706] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:41:39.211 plugin-container[88751:2682706] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670197299221	Marionette	INFO	Marionette enabled
+1670197299236	Marionette	INFO	Listening on port 64115
+Read port: 64115
+WebDriver BiDi listening on ws://127.0.0.1:64107
+1670197299527	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileIJVUEE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64107/devtools/browser/7c9281e9-d194-4e66-9f5b-db7246b5aad1
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670197336324	geckodriver	INFO	Listening on 127.0.0.1:64223
+1670197336841	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "64224" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileJ6x9L5"
+*** You are running in headless mode.
+2022-12-04 18:42:17.293 plugin-container[88788:2683484] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:42:17.293 plugin-container[88788:2683484] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:42:17.298 plugin-container[88788:2683484] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:42:17.298 plugin-container[88788:2683484] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:42:17.299 plugin-container[88788:2683486] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:42:17.299 plugin-container[88788:2683486] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670197337306	Marionette	INFO	Marionette enabled
+1670197337373	Marionette	INFO	Listening on port 64229
+Read port: 64229
+WebDriver BiDi listening on ws://127.0.0.1:64224
+1670197337632	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileJ6x9L5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64224/devtools/browser/5af4cef1-c92a-4d48-9717-96e45a47126f
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670197343718	Marionette	INFO	Stopped listening on port 64229
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1670197634418	geckodriver	INFO	Listening on 127.0.0.1:64459
+1670197634935	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "64460" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofiles6U1XD"
+*** You are running in headless mode.
+2022-12-04 18:47:15.354 plugin-container[88896:2685930] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:47:15.362 plugin-container[88896:2685930] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:47:15.368 plugin-container[88896:2685930] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:47:15.368 plugin-container[88896:2685930] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:47:15.368 plugin-container[88896:2685928] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:47:15.368 plugin-container[88896:2685928] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670197635368	Marionette	INFO	Marionette enabled
+1670197635383	Marionette	INFO	Listening on port 64467
+Read port: 64467
+WebDriver BiDi listening on ws://127.0.0.1:64460
+1670197635666	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofiles6U1XD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64460/devtools/browser/e29ac24a-6cc0-4fe9-8abe-bee6722d3671
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670197644727	geckodriver	INFO	Listening on 127.0.0.1:64535
+1670197645250	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "64536" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofile5wRmH7"
+*** You are running in headless mode.
+2022-12-04 18:47:25.677 plugin-container[88918:2686440] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:47:25.677 plugin-container[88918:2686440] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:47:25.681 plugin-container[88918:2686440] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:47:25.681 plugin-container[88918:2686440] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:47:25.681 plugin-container[88918:2686464] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:47:25.682 plugin-container[88918:2686464] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670197645689	Marionette	INFO	Marionette enabled
+1670197645770	Marionette	INFO	Listening on port 64541
+Read port: 64541
+WebDriver BiDi listening on ws://127.0.0.1:64536
+1670197646019	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofile5wRmH7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64536/devtools/browser/665e1dd7-cbbc-4294-a938-e3658bf3f6d9
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670197651356	Marionette	INFO	Stopped listening on port 64541
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1670197738975	geckodriver	INFO	Listening on 127.0.0.1:64699
+1670197739495	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "64700" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofilevE5iYy"
+*** You are running in headless mode.
+2022-12-04 18:48:59.910 plugin-container[88977:2687680] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:48:59.911 plugin-container[88977:2687680] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:48:59.923 plugin-container[88977:2687680] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:48:59.923 plugin-container[88977:2687680] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:48:59.923 plugin-container[88977:2687689] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:48:59.923 plugin-container[88977:2687689] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670197739924	Marionette	INFO	Marionette enabled
+1670197739989	Marionette	INFO	Listening on port 64705
+Read port: 64705
+WebDriver BiDi listening on ws://127.0.0.1:64700
+1670197740223	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofilevE5iYy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64700/devtools/browser/692ada48-5e2e-4121-8903-acad9a42d6ae
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670197759467	geckodriver	INFO	Listening on 127.0.0.1:64782
+1670197759981	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "64783" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileQYkUMl"
+*** You are running in headless mode.
+2022-12-04 18:49:20.388 plugin-container[89010:2688323] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:49:20.389 plugin-container[89010:2688323] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:49:20.393 plugin-container[89010:2688323] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:49:20.393 plugin-container[89010:2688323] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:49:20.393 plugin-container[89010:2688348] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:49:20.393 plugin-container[89010:2688348] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670197760400	Marionette	INFO	Marionette enabled
+1670197760416	Marionette	INFO	Listening on port 64788
+Read port: 64788
+WebDriver BiDi listening on ws://127.0.0.1:64783
+1670197760710	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileQYkUMl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64783/devtools/browser/308ad8bc-b597-4745-bb54-1c902f315e5e
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670197794128	geckodriver	INFO	Listening on 127.0.0.1:64863
+1670197794649	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "64864" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofilecXUVS8"
+*** You are running in headless mode.
+1670197795070	Marionette	INFO	Marionette enabled
+1670197795135	Marionette	INFO	Listening on port 64869
+2022-12-04 18:49:55.142 plugin-container[89045:2688967] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:49:55.143 plugin-container[89045:2688967] nil host used in call to allowsAnyHTTPSCertificateForHost:
+Read port: 64869
+2022-12-04 18:49:55.209 plugin-container[89045:2688967] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:49:55.210 plugin-container[89045:2688967] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:49:55.210 plugin-container[89045:2689000] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:49:55.210 plugin-container[89045:2689000] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:64864
+1670197795356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofilecXUVS8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64864/devtools/browser/a45d061b-d372-42f3-8349-cf6aec9f655a
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670197800630	Marionette	INFO	Stopped listening on port 64869
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1670197851474	geckodriver	INFO	Listening on 127.0.0.1:64989
+1670197852098	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "64990" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofile4yYxBR"
+*** You are running in headless mode.
+1670197852705	Marionette	INFO	Marionette enabled
+1670197852732	Marionette	INFO	Listening on port 64995
+2022-12-04 18:50:52.774 plugin-container[89103:2689976] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:50:52.774 plugin-container[89103:2689976] nil host used in call to allowsAnyHTTPSCertificateForHost:
+Read port: 64995
+2022-12-04 18:50:52.873 plugin-container[89103:2689976] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:50:52.873 plugin-container[89103:2689976] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:50:52.873 plugin-container[89103:2690016] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:50:52.873 plugin-container[89103:2690016] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:64990
+1670197853389	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofile4yYxBR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64990/devtools/browser/22bbe75a-53c9-4f4e-b451-20ed491f4c6e
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670197860371	Marionette	INFO	Stopped listening on port 64995
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1670197897244	geckodriver	INFO	Listening on 127.0.0.1:65078
+1670197897762	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "65079" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofilelkRSEg"
+*** You are running in headless mode.
+2022-12-04 18:51:38.155 plugin-container[89143:2690792] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:51:38.155 plugin-container[89143:2690792] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:51:38.158 plugin-container[89143:2690792] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:51:38.158 plugin-container[89143:2690792] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:51:38.158 plugin-container[89143:2690798] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:51:38.158 plugin-container[89143:2690798] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670197898171	Marionette	INFO	Marionette enabled
+1670197898187	Marionette	INFO	Listening on port 65084
+Read port: 65084
+WebDriver BiDi listening on ws://127.0.0.1:65079
+1670197898517	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofilelkRSEg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65079/devtools/browser/2fef7b28-4c6d-4004-9811-01ef2dbed553
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670197905801	Marionette	INFO	Stopped listening on port 65084
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1670197946750	geckodriver	INFO	Listening on 127.0.0.1:65195
+1670197947274	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "65196" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileZcZiiK"
+*** You are running in headless mode.
+2022-12-04 18:52:27.732 plugin-container[89186:2691586] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:52:27.732 plugin-container[89186:2691586] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670197947749	Marionette	INFO	Marionette enabled
+2022-12-04 18:52:27.755 plugin-container[89186:2691586] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:52:27.755 plugin-container[89186:2691586] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:52:27.756 plugin-container[89186:2691592] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:52:27.756 plugin-container[89186:2691592] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670197947764	Marionette	INFO	Listening on port 65201
+Read port: 65201
+WebDriver BiDi listening on ws://127.0.0.1:65196
+1670197948061	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileZcZiiK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65196/devtools/browser/86a16588-7adc-4c26-9cc7-da0986f31141
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670197953952	Marionette	INFO	Stopped listening on port 65201
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1670197967361	geckodriver	INFO	Listening on 127.0.0.1:65271
+1670197967882	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "65272" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileSqLmU6"
+*** You are running in headless mode.
+2022-12-04 18:52:48.281 plugin-container[89221:2692161] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:52:48.281 plugin-container[89221:2692161] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:52:48.284 plugin-container[89221:2692161] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:52:48.284 plugin-container[89221:2692161] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:52:48.284 plugin-container[89221:2692167] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:52:48.284 plugin-container[89221:2692167] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670197968295	Marionette	INFO	Marionette enabled
+1670197968321	Marionette	INFO	Listening on port 65277
+Read port: 65277
+WebDriver BiDi listening on ws://127.0.0.1:65272
+1670197968627	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileSqLmU6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65272/devtools/browser/0d25d1dd-fbcf-4518-a0c4-d4fb6498a4d1
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670197973122	Marionette	INFO	Stopped listening on port 65277
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1670198081888	geckodriver	INFO	Listening on 127.0.0.1:65431
+1670198082471	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "65432" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileINlQqw"
+*** You are running in headless mode.
+1670198083044	Marionette	INFO	Marionette enabled
+1670198083070	Marionette	INFO	Listening on port 65438
+Read port: 65438
+2022-12-04 18:54:43.102 plugin-container[89327:2694100] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:54:43.102 plugin-container[89327:2694100] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:54:43.105 plugin-container[89327:2694100] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:54:43.105 plugin-container[89327:2694100] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:54:43.106 plugin-container[89327:2694108] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:54:43.106 plugin-container[89327:2694108] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:65432
+1670198083429	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileINlQqw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65432/devtools/browser/61e7d133-45cf-4f64-8cfc-7493d303e774
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670198090111	Marionette	INFO	Stopped listening on port 65438
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1670198132327	geckodriver	INFO	Listening on 127.0.0.1:65520
+1670198132843	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "65521" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileSCN4i4"
+*** You are running in headless mode.
+2022-12-04 18:55:33.290 plugin-container[89374:2694923] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:55:33.290 plugin-container[89374:2694923] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:55:33.294 plugin-container[89374:2694923] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:55:33.294 plugin-container[89374:2694923] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:55:33.294 plugin-container[89374:2694932] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:55:33.294 plugin-container[89374:2694932] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670198133304	Marionette	INFO	Marionette enabled
+1670198133316	Marionette	INFO	Listening on port 65527
+Read port: 65527
+WebDriver BiDi listening on ws://127.0.0.1:65521
+1670198133883	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileSCN4i4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65521/devtools/browser/0d315fd3-b098-4932-a520-29d65566da08
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670198139123	Marionette	INFO	Stopped listening on port 65527
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1670198208351	geckodriver	INFO	Listening on 127.0.0.1:49294
+1670198208870	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "49295" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileXa45hF"
+*** You are running in headless mode.
+1670198209340	Marionette	INFO	Marionette enabled
+2022-12-04 18:56:49.345 plugin-container[89420:2696632] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:56:49.345 plugin-container[89420:2696632] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670198209354	Marionette	INFO	Listening on port 49300
+2022-12-04 18:56:49.366 plugin-container[89420:2696632] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:56:49.366 plugin-container[89420:2696632] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:56:49.367 plugin-container[89420:2696662] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:56:49.367 plugin-container[89420:2696662] nil host used in call to allowsAnyHTTPSCertificateForHost:
+Read port: 49300
+WebDriver BiDi listening on ws://127.0.0.1:49295
+1670198209667	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileXa45hF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49295/devtools/browser/e6b2f737-b682-4080-a5fd-ee8da045d2ba
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670198221645	geckodriver	INFO	Listening on 127.0.0.1:49364
+1670198222039	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "49365" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileP3yCsh"
+*** You are running in headless mode.
+2022-12-04 18:57:02.573 plugin-container[89446:2697103] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:57:02.573 plugin-container[89446:2697103] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:57:02.584 plugin-container[89446:2697103] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:57:02.584 plugin-container[89446:2697103] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-04 18:57:02.585 plugin-container[89446:2697101] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-04 18:57:02.585 plugin-container[89446:2697101] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670198222587	Marionette	INFO	Marionette enabled
+1670198222742	Marionette	INFO	Listening on port 49370
+Read port: 49370
+WebDriver BiDi listening on ws://127.0.0.1:49365
+1670198222967	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kg/hnwkrhks4jl7n3g4wwgnwt1h0000gn/T/rust_mozprofileP3yCsh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49365/devtools/browser/d96c3db5-c351-4333-8839-49cbe5d4869b
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 196: SyntaxError: unexpected token: identifier
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.leetcode.com/static_assets/public/webpack_bundles/new-apps/desktop.cc0065266.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://leetcode.com/problems/climbing-stairs/, line 478: ReferenceError: loadLeetCodeChallenge is not defined
+1670198229203	Marionette	INFO	Stopped listening on port 49370
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
