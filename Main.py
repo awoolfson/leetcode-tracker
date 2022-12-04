@@ -3,8 +3,10 @@
 """
 Python leetcode tracker by: Auden Woolfson
 
-TODO: handle abs/rel paths with os.path.relpath (isabs), use dictionary to optimize arg parsing
-set up git, 
+TODO: handle abs/rel paths with os.path.relpath (isabs),
+use dictionary to optimize arg parsing
+build related topics array from the topic element
+debug waiting for loading screen to finish (inconsistent)
 """
 
 import sys
@@ -77,9 +79,9 @@ def main():
     
     browser = webdriver.Firefox(options = options)
     browser.get(leetcodeURL)
-    WebDriverWait(browser, 10).until(
-        ec.presence_of_element_located((By.CLASS_NAME, 'css-isal7m'))) # delay until editor element loads
-    
+    WebDriverWait(browser, 5).until(
+        ec.presence_of_element_located((By.CLASS_NAME, 'css-isal7m')))
+    WebDriverWait(browser, 5)
     # expand the related topics tab
     
     expandTopicsElement = browser.find_element(By.CLASS_NAME, 'css-isal7m')
@@ -114,11 +116,26 @@ def main():
     # difficulty: class="css-14oi08n"
     # topics: class="css-1hky5w4"
     
-    problemNameElement = HTMLBeautifulSoup.find_all(class_ = "css-v3d350")
-    difficultyElement = HTMLBeautifulSoup.find_all(class_ = "css-14oi08n")
-    relatedTopicsElement = HTMLBeautifulSoup.find_all(class_ = "css-1hky5w4")
+    problemNameElement = HTMLBeautifulSoup.find(class_ = "css-v3d350")
+    difficultyElement = HTMLBeautifulSoup.find(class_ = "css-14oi08n")
+    relatedTopicsElement = HTMLBeautifulSoup.find(class_ = "css-1hky5w4")
+
+    problemTitle = problemNameElement.text
+    difficulty = difficultyElement.text
     
+    numberRegex = re.compile(r'\d+')
+    problemNumberMatch = re.match(numberRegex, problemTitle)
+    problemNumber = problemNumberMatch.group()
     
+    for i in range(len(problemTitle)):
+        if problemTitle[i] == '.':
+                problemName = problemTitle[i + 2:]
+    
+    problemTopics = []
+    
+    #relatedTopicsElement
+    
+    print(f'{problemNumber} {problemName} {difficulty}')
         
 # HELPER METHODS
 
