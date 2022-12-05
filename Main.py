@@ -4,16 +4,17 @@
 Python leetcode tracker by: Auden Woolfson
 
 TODO: handle abs/rel paths with os.path.relpath (isabs),
-use dictionary to optimize arg parsing
-build related topics array from the topic element
-debug waiting for loading screen to finish (inconsistent)
+use dictionary to optimize arg parsing,
+debug waiting for loading screen to finish (inconsistent),
+write README,
+test xl more extensively, add formatting stuff?
 """
 
 import sys
 import pyinputplus as pyip # gets user inputs
 import requests # used for validating URLs
 from bs4 import BeautifulSoup # parses html
-import openpyxl # reads and writes to xlsx (Microsoft Excel) files
+import openpyxl as pyxl # reads and writes to xlsx (Microsoft Excel) files
 import re # regular expressions used for filepath and URL
 import os # used to validate file paths
 
@@ -27,9 +28,10 @@ def main():
     #user input variables
     
     leetcodeURLInput = ""
-    xlSheetFilepathInput = ""
+    xlFilepathInput = ""
     solutionInput = ""
     notesInput = ""
+    xlSheetName = "Sheet1" # defaul sheet name is Sheet1, --sheet argument can specify
     
     #parse arguments
     
@@ -38,16 +40,21 @@ def main():
         if args[i] == "-u":
             leetcodeURLInput = args[i + 1]
         if args[i] == "-x":
-            xlSheetFilepathInput = args[i + 1]
+            xlFilepathInput = args[i + 1]
             relativeXlPath = False
         if args[i] == "-s":
             solutionInput = args[i + 1]
         if args[i] == "-n":
             notesInput = args[i + 1]
         if args[i] == "-r":
-            xlSheetFilepath = args[i + 1]
+            xlWorkbookFilepath = args[i + 1]
             relativeXlPath = True
+        if args[i] == "--sheet":
+            xlSheetName = args[i + 1]
     
+    solution = solutionInput
+    notes = notesInput
+            
     # validate leetcode URL with regex to avoid errors with request, will ask for new addres again later if request fails
     
     leetcodeURLRegex = re.compile(r'https:\/\/leetcode.com\/problems\/\S+')
@@ -59,7 +66,7 @@ def main():
     # validate xl file path by extension and path validity
     
     xlRegex = re.compile(r'.*\.xlsx?$')
-    xlSheetFilepath = getXlFilepathInput(xlRegex, xlSheetFilepathInput)
+    xlWorkbookFilepath = getXlFilepathInput(xlRegex, xlFilepathInput)
     
     # validate URL again using the web with standard python requests
     
@@ -83,9 +90,10 @@ def main():
     
     browser = webdriver.Firefox(options = options)
     browser.get(leetcodeURL)
-    WebDriverWait(browser, 7).until(
+    WebDriverWait(browser, 10).until(
         ec.presence_of_element_located((By.CLASS_NAME, 'css-isal7m')))
-    WebDriverWait(browser, 7)
+    WebDriverWait(browser, 10)
+    
     # expand the related topics tab'
     
     topicsElementClass = browser.find_elements(By.CLASS_NAME, 'css-isal7m')
@@ -121,6 +129,8 @@ def main():
     # difficulty: class="css-14oi08n"
     # topics: class="css-vrmejz"
     
+    # parse the relevant elements
+    
     problemNameElement = HTMLBeautifulSoup.find(class_ = "css-v3d350")
     difficultyElement = HTMLBeautifulSoup.find(class_ = "css-14oi08n")
     relatedTopicsElement = HTMLBeautifulSoup.find(class_ = "css-vrmejz") # after expansion
@@ -137,9 +147,7 @@ def main():
                 problemName = problemTitle[i + 2:]
     
     relatedTopicsChildren = relatedTopicsElement.findChildren()
-    
     relatedTopics = []
-    
     num = 1
     
     print(f'{problemNumber} {problemName} {difficulty}')
@@ -148,7 +156,35 @@ def main():
             relatedTopics.append(topic.text)
             print(f'topic {num}. {topic.text}')
             num += 1
-        
+    
+    # this needs to be tested
+    
+    xlWorkbook = pyxl.load_workbook(xlWorkbookFilepath)
+    xlsheetnames = xlWorkbook.sheetnames
+    if len(xlsheetnames) == 1:
+        print(f'1 sheet found: {xlsheetnames[0]}')
+        xlSheet = xlWorkbook[xlsheetnames[0]]
+    else:
+        try:
+            xlSheet = xlWorkbook[xlSheetName]
+        except:
+            print("""
+error: there was a problem finding the sheet Sheet1 or [--sheet] in the xl workboook                
+""")
+            quit()
+    
+    print(f'{xlSheet.max_row}') 
+    for rowNum in range(2, xlSheet.max_row + 2):
+        print(f'checking row {rowNum}')
+        if xlSheet.cell(row = rowNum, column = 2).value == None:
+            xlSheet.cell(row = rowNum, column = 2).value = problemName
+            xlSheet.cell(row = rowNum, column = 3).value = difficulty
+            xlSheet.cell(row = rowNum, column = 4).value = (', '.join(relatedTopics))
+            xlSheet.cell(row = rowNum, column = 5).value = solution
+            xlSheet.cell(row = rowNum, column = 6).value = notes
+    
+    xlWorkbook.save(xlWorkbookFilepath)
+    
 # HELPER METHODS
 
 def getLeetcodeURLInput(methodRegex, URLInput):
