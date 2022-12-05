@@ -1,4 +1,0 @@
-https://leetcode.com/problems/two-sum/
-https://leetcode.com/problems/two-suu/
-
-/Users/awoolfson/awoolfson-root/personal-projects/leetcode-tracker/example.xlsx
