@@ -7,7 +7,11 @@ TODO: handle abs/rel paths with os.path.relpath (isabs),
 use dictionary to optimize arg parsing,
 debug waiting for loading screen to finish (inconsistent),
 write README,
-test xl more extensively, add formatting stuff?
+    - add script for installing all dependencies?
+    - explain all arguments
+    - explain functionality of script
+test xl more extensively
+add link field, hints field to xl. create a seperate script folder for playing with the data
 """
 
 import sys
