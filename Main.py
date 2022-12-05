@@ -176,14 +176,17 @@ error: there was a problem finding the sheet Sheet1 or [--sheet] in the xl workb
     print(f'{xlSheet.max_row}') 
     for rowNum in range(2, xlSheet.max_row + 2):
         print(f'checking row {rowNum}')
-        if xlSheet.cell(row = rowNum, column = 2).value == None:
+        if xlSheet.cell(row = rowNum, column = 2).value == None or xlSheet.cell(row = rowNum, column = 2).value == problemName:
             xlSheet.cell(row = rowNum, column = 2).value = problemName
             xlSheet.cell(row = rowNum, column = 3).value = difficulty
             xlSheet.cell(row = rowNum, column = 4).value = (', '.join(relatedTopics))
             xlSheet.cell(row = rowNum, column = 5).value = solution
             xlSheet.cell(row = rowNum, column = 6).value = notes
+            print("workbook updated")
+            xlWorkbook.save(xlWorkbookFilepath)
+            quit()
     
-    xlWorkbook.save(xlWorkbookFilepath)
+    
     
 # HELPER METHODS
 
