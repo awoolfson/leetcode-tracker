@@ -3,14 +3,14 @@
 """
 Python leetcode tracker by: Auden Woolfson
 
-TODO: handle abs/rel paths with os.path.relpath (isabs),
-use dictionary to optimize arg parsing,
-debug waiting for loading screen to finish (inconsistent),
+TODO:
+handle abs/rel paths with os.path.relpath (isabs)?
 write README,
     - add script for installing all dependencies?
     - explain all arguments
     - explain functionality of script
 test xl more extensively
+automatic hints?
 add link field, hints field to xl. create a seperate script folder for playing with the data
 """
 
@@ -27,6 +27,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as ec
+
 def main():
     
     #user input variables
@@ -36,28 +37,44 @@ def main():
     solutionInput = ""
     notesInput = ""
     xlSheetName = "Sheet1" # defaul sheet name is Sheet1, --sheet argument can specify
+    relativeXlPath = False
+    
+    expandTopicsElementClassName = "flex-col"
+    expandTopicsElementIndex = 7 # indices are used to specify which element with the class name is the one we are looking for
+    problemNameElementClassName = "flex-1"
+    problemNameElementIndex = 5
+    difficultyElementClassName = "bg-olive"
+    difficultyElementIndex = 0
+    relatedTopicsElementClassName = "gap-y-3"
+    relatedTopicsElementIndex = 0
+    
     
     #parse arguments
     
+
+    parseArgsDict = {}
     args = sys.argv
     for i in range(len(args)-1): #-1 to prevent i+1 index from being out of range
         if args[i] == "-u":
             leetcodeURLInput = args[i + 1]
         if args[i] == "-x":
             xlFilepathInput = args[i + 1]
-            relativeXlPath = False
         if args[i] == "-s":
             solutionInput = args[i + 1]
         if args[i] == "-n":
             notesInput = args[i + 1]
-        if args[i] == "-r":
-            xlWorkbookFilepath = args[i + 1]
-            relativeXlPath = True
+        # if args[i] == "-r":
+        #     xlWorkbookFilepath = args[i + 1]
+        #     relativeXlPath = True
         if args[i] == "--sheet":
             xlSheetName = args[i + 1]
     
     solution = solutionInput
     notes = notesInput
+    
+    # if relativeXlPath:
+    #     xlWorkbookFilepath = os.path.abspath(xlWorkbookFilepath)
+        
             
     # validate leetcode URL with regex to avoid errors with request, will ask for new addres again later if request fails
     
@@ -95,13 +112,13 @@ def main():
     browser = webdriver.Firefox(options = options)
     browser.get(leetcodeURL)
     WebDriverWait(browser, 10).until(
-        ec.presence_of_element_located((By.CLASS_NAME, 'css-isal7m')))
+        ec.element_to_be_clickable((By.CLASS_NAME, expandTopicsElementClassName)))
     WebDriverWait(browser, 10)
     
-    # expand the related topics tab'
+    # expand the related topics tab
     
-    topicsElementClass = browser.find_elements(By.CLASS_NAME, 'css-isal7m')
-    expandTopicsElement = topicsElementClass[1] # topics element is second on page in class
+    expandTopicsElementClass = browser.find_elements(By.CLASS_NAME, expandTopicsElementClassName)
+    expandTopicsElement = expandTopicsElementClass[expandTopicsElementIndex] # topics element doesn't have a unique class name
     expandTopicsElement.click() # click it to expand
     
     # save HTML and close browser
@@ -127,22 +144,20 @@ def main():
     localHTMLFile.write(prettyHTML)
     localHTMLFile.close()
     
-    # get the relevant elements
+    # get and parse the relevant elements
     
-    # problem name: class="css-v3d350"
-    # difficulty: class="css-14oi08n"
-    # topics: class="css-vrmejz"
+    problemNameElementClass = HTMLBeautifulSoup.find_all(class_ = problemNameElementClassName)
+    difficultyElementClass = HTMLBeautifulSoup.find_all(class_ = difficultyElementClassName)
+    relatedTopicsElementClass = HTMLBeautifulSoup.find_all(class_ = relatedTopicsElementClassName) # after expansion
     
-    # parse the relevant elements
-    
-    problemNameElement = HTMLBeautifulSoup.find(class_ = "css-v3d350")
-    difficultyElement = HTMLBeautifulSoup.find(class_ = "css-14oi08n")
-    relatedTopicsElement = HTMLBeautifulSoup.find(class_ = "css-vrmejz") # after expansion
+    problemNameElement = problemNameElementClass[problemNameElementIndex]
+    difficultyElement = difficultyElementClass[difficultyElementIndex]
+    relatedTopicsElement = relatedTopicsElementClass[relatedTopicsElementIndex]
 
     problemTitle = problemNameElement.text
     difficulty = difficultyElement.text
     
-    numberRegex = re.compile(r'\d+')
+    numberRegex = re.compile(r'\d+') # formatting the title
     problemNumberMatch = re.match(numberRegex, problemTitle)
     problemNumber = problemNumberMatch.group()
     
@@ -151,17 +166,22 @@ def main():
                 problemName = problemTitle[i + 2:]
     
     relatedTopicsChildren = relatedTopicsElement.findChildren()
+    print(f'{len(relatedTopicsChildren)}')
     relatedTopics = []
     num = 1
     
     print(f'{problemNumber} {problemName} {difficulty}')
+    
+    duplicateTopics = {}
+    
     for index, topic in enumerate(relatedTopicsChildren):
-        if index % 2 == 0:
+        if topic.text != "" and not topic.text in duplicateTopics:
             relatedTopics.append(topic.text)
             print(f'topic {num}. {topic.text}')
+            duplicateTopics[topic.text] = 1
             num += 1
     
-    # this needs to be tested
+    # this needs to be tested more
     
     xlWorkbook = pyxl.load_workbook(xlWorkbookFilepath)
     xlsheetnames = xlWorkbook.sheetnames
@@ -178,7 +198,7 @@ error: there was a problem finding the sheet Sheet1 or [--sheet] in the xl workb
             quit()
     
     print(f'{xlSheet.max_row}') 
-    for rowNum in range(2, xlSheet.max_row + 2):
+    for rowNum in range(3, xlSheet.max_row + 2):
         print(f'checking row {rowNum}')
         if xlSheet.cell(row = rowNum, column = 2).value == None or xlSheet.cell(row = rowNum, column = 2).value == problemName:
             xlSheet.cell(row = rowNum, column = 2).value = problemName
@@ -186,6 +206,7 @@ error: there was a problem finding the sheet Sheet1 or [--sheet] in the xl workb
             xlSheet.cell(row = rowNum, column = 4).value = (', '.join(relatedTopics))
             xlSheet.cell(row = rowNum, column = 5).value = solution
             xlSheet.cell(row = rowNum, column = 6).value = notes
+            xlSheet.cell(row = rowNum, column = 7).value = leetcodeURL
             print("workbook updated")
             xlWorkbook.save(xlWorkbookFilepath)
             quit()
