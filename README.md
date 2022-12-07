@@ -20,11 +20,7 @@ The arguments for this script follow:
 |argument|function|
 |--------|--------|
 |-u|URL for the leetcode page|
-|--|-------------------------|
 |-x|filepath to the xl workbook|
-|--|---------------------------|
 |-s|text for solution column|
-|--|------------------------|
 |-n|text for notes column|
-|--|---------------------|
 |--sheet|name of the sheet in the workbook (default: Sheet1)|
