@@ -18,6 +18,7 @@ To be clear, the cell that reads Name should be in row 2 column B.
 The arguments for this script follow:
 
 |argument|function|
+|--------|--------|
 |-u|URL for the leetcode page|
 |--|-------------------------|
 |-x|filepath to the xl workbook|
