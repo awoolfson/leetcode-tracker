@@ -211,8 +211,6 @@ error: there was a problem finding the sheet Sheet1 or [--sheet] in the xl workb
             xlWorkbook.save(xlWorkbookFilepath)
             quit()
     
-    
-    
 # HELPER METHODS
 
 def getLeetcodeURLInput(methodRegex, URLInput):
